@@ -23,8 +23,8 @@ else:
     # Calculando o ponto de interseção das linhas
     # 2x + 3y = 6
     # -x + 2y = 2
-    A = np.array([[2, 3], [-1, 2]])
-    B = np.array([6, 2])
+    A = np.array([[12, 6], [3, 6]])
+    B = np.array([180, 90])
     x, y = np.linalg.solve(A, B)
     print("O ponto de interseção das linhas é:", x, y)
 
